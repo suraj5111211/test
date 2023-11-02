@@ -1,0 +1,42 @@
+SETTING UP LOCAL REPOSITORY
+1) git --version
+2) git init
+3) git status
+4) ls
+SETTING UP NEW FOLDER FOR GIT PROJECT
+mkdir 121A3026
+cd 121A3026
+ADDING FILES TO GIT AND COMMMITING
+5) touch file1
+6) git status
+CHECKING THE STATUS OF THE UNTRACKED FILES
+7)touch file2 file3
+8) git status
+SETTING USER CONFIGURATION
+9) git config --global username "suraj"
+10) git config --global --list
+11) git config --global user.email "surajmit121@gst.sies.edu.in"
+12)git config --global --list
+ADDING THE FILE TO STAGING AREA
+13) cat>>file1
+    this is file 1 line 1 
+14) cat f1
+15) git add file1
+16)git status
+COMMITING THE CHANGES AND DETECTING THE CHANGED FILES
+17)git add .
+18)git status
+19) git commit -m 'first commit on file1' file1
+20)git log
+21) git log --online
+ADDING REMOTE REPOSITORY
+22)cat >newfile
+23)git add.
+24)git commit -m 'first change'
+25)git log
+26)git remote add origin http://github.com//--
+SHOWING A REMOTE REPOSITORY AND PUSHING TO A REMOTE REPOSITORY
+27)git remote show origin
+28)git push -u origin master 
+PULLING CHANGES FROM REMOTE REPOSITORY
+29) git pull http://github.com/---  

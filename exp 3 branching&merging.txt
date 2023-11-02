@@ -1,0 +1,40 @@
+BRANCHING AND MERGING 
+1)git branch
+2)ls
+3)cat file1
+this is file 1 line 1
+4)git branch new
+5)git checkout new
+6)ls
+ file1 file2
+7)cat file1
+suraj midgule
+another line
+8)cat>>file1
+9)git add file1
+10)git commit -m 'new update'file1
+11)git checkout master (main)
+12)cat file1
+13)git merge new
+14)cat f1
+15)git log --oneline
+16)git branch new1
+17)git checkout new1
+18)cat >> file2
+new line
+19) cat file2
+20)git add file2
+21)git commit -m 'new1 update' file2
+22)git status
+23)git checkout master 
+24)git merge --no--ff new1
+25)cat file2
+26)git log --online --graph --all
+
+
+
+
+
+
+
+
